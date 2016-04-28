@@ -372,7 +372,7 @@ patterns: [
   }
   {
     name: "source.js.jsx.embedded.html"
-    begin: "(?:^\\s+)?(<)((?i:script))\\b(?=[^>]*lang=[\"']babel[\"'])"
+    begin: "(?:^\\s+)?(<)((?i:script))\\b(?=[^>]*[(lang=[\"']babel[\"'])(type=[\"']text\/babel[\"'])])"
     beginCaptures:
       "1":
         name: "punctuation.definition.tag.html"
